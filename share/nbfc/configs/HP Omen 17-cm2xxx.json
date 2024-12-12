@@ -1,0 +1,113 @@
+{
+ "LegacyTemperatureThresholdsBehaviour": true,
+ "NotebookModel": "HP Omen 17-cm2xxx",
+ "Author": "brunoflo",
+ "EcPollInterval": 1500,
+ "ReadWriteWords": false,
+ "CriticalTemperature": 75,
+ "FanConfigurations": [
+	{
+	 "ReadRegister": 179,
+	 "WriteRegister": 45,
+	 "MinSpeedValue": 0,
+	 "MaxSpeedValue": 100,
+	 "IndependentReadMinMaxValues": true,
+	 "MinSpeedValueRead": 0,
+	 "MaxSpeedValueRead": 32,
+	 "ResetRequired": true,
+	 "FanSpeedResetValue": 255,
+	 "FanDisplayName": "Fan 1",
+	 "TemperatureThresholds": [
+	  {
+	   "UpThreshold": 20,
+	   "DownThreshold": 0,
+	   "FanSpeed": 0.0
+	  },
+	  {
+	   "UpThreshold": 30,
+	   "DownThreshold": 20,
+	   "FanSpeed": 30.0
+	  },
+	  {
+	   "UpThreshold": 40,
+	   "DownThreshold": 30,
+	   "FanSpeed": 50.0
+	  },
+	  {
+	   "UpThreshold": 50,
+	   "DownThreshold": 40,
+	   "FanSpeed": 60.0
+	  },
+	  {
+	   "UpThreshold": 60,
+	   "DownThreshold": 50,
+	   "FanSpeed": 	70.0
+	  },
+	  {
+	   "UpThreshold": 70,
+	   "DownThreshold": 60,
+	   "FanSpeed": 100.0
+	  }
+	 ],
+	 "FanSpeedPercentageOverrides": [
+	  {
+	   "FanSpeedPercentage": 0.0,
+	   "FanSpeedValue": 255,
+	   "TargetOperation": "Write"
+	  }
+	 ]
+	},
+	{
+	 "ReadRegister": 177,
+	 "WriteRegister": 44,
+	 "MinSpeedValue": 0,
+	 "MaxSpeedValue": 100,
+	 "IndependentReadMinMaxValues": true,
+	 "MinSpeedValueRead": 0,
+	 "MaxSpeedValueRead": 33,
+	 "ResetRequired": true,
+	 "FanSpeedResetValue": 255,
+	 "FanDisplayName": "Fan 2",
+	 "TemperatureThresholds": [
+	  {
+	   "UpThreshold": 20,
+	   "DownThreshold": 0,
+	   "FanSpeed": 0.0
+	  },
+	  {
+	   "UpThreshold": 30,
+	   "DownThreshold": 20,
+	   "FanSpeed": 30.0
+	  },
+	  {
+	   "UpThreshold": 40,
+	   "DownThreshold": 30,
+	   "FanSpeed": 50.0
+	  },
+	  {
+	   "UpThreshold": 50,
+	   "DownThreshold": 40,
+	   "FanSpeed": 60.0
+	  },
+	  {
+	   "UpThreshold": 60,
+	   "DownThreshold": 50,
+	   "FanSpeed": 	70.0
+	  },
+	  {
+	   "UpThreshold": 70,
+	   "DownThreshold": 60,
+	   "FanSpeed": 100.0
+	  }
+	 ],
+	 "FanSpeedPercentageOverrides": [
+	  {
+	   "FanSpeedPercentage": 0.0,
+	   "FanSpeedValue": 255,
+	   "TargetOperation": "Write"
+	  }
+	 ]
+	}
+ ],
+ "RegisterWriteConfigurations": []
+}
