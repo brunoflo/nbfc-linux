@@ -51,11 +51,11 @@ nbfc-linux is already available in the nix repo so just follow the common instru
   myUser = "gaurav"; #adjust this to your username
   command = "bin/nbfc_service --config-file '/home/${myUser}/.config/nbfc.json'";
 in {
-  environment.systemPackages = with pkgs; [
+  environment.systemPackages = [
     # if you are on stable uncomment the next line
     # inputs.nbfc-linux.packages.x86_64-linux.default
     # if you are on unstable uncomment the next line
-    # nbfc-linux
+    # pkgs.nbfc-linux
   ];
   systemd.services.nbfc_service = {
     enable = true;
